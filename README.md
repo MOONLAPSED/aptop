@@ -1,8 +1,8 @@
 # aptop
 
-```
+```powershell
 .\.venv\Scripts\activate
-python3/pip install-update pip
+python.exe -m pip install --upgrade pip
 pip install pdm
 pdm install
 ```

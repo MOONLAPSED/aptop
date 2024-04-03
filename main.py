@@ -3,8 +3,6 @@ import logging.config
 from logging.config import dictConfig
 import threading
 import sys
-import os
-import pathlib
 from pathlib import Path
 
 
@@ -28,8 +26,7 @@ _init_basic_logging()
 
 def main() -> logging.Logger:
     """Configures logging for the app.
-    Args:
-        None
+
     Returns:
         logging.Logger: The logger for the module.
     """
