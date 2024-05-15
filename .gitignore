@@ -12,3 +12,4 @@ venv.bak/
 __pycache__/
 *.py[cod]
 .DS_Store
+*.pdf
