@@ -3,7 +3,7 @@ import threading
 import logging
 from openai import OpenAI
 from abc import ABC
-from src.abc.protocol import BaseContextManager
+from src.app.protocol import BaseContextManager
 
 
 class ThreadSafeContextManager(BaseContextManager, ABC):
